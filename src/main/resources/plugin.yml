@@ -1,0 +1,12 @@
+name: RandomBlock
+version: '${project.version}'
+main: online.isslavok.randomblock.RandomBlock
+api-version: '1.20'
+
+commands:
+  join:
+    description: Присоединиться к игре
+    usage: /<command> <solo|doubles|teams>
+  leave:
+    description: Выйти из игры
+    usage: /<command> <solo|doubles|teams> <team>
